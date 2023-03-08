@@ -1,5 +1,5 @@
 footer {
-  background-color: #f2f2f2;
+  background-color: #CEE8F9;
   padding: 20px;
   text-align: center;
 }
@@ -8,19 +8,14 @@ footer {
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
-  margin: 0 auto;
 }
 
-.footer-left h3,
-.footer-right h3 {
+.left h3,
+.center h3,
+.right h3 {
   font-size: 20px;
-  margin-bottom: 10px;
 }
 
-.footer-left p {
-  font-size: 14px;
-  margin-bottom: 10px;
-}
 
 .footer-right ul {
   list-style: none;
@@ -28,16 +23,19 @@ footer {
   padding: 0;
 }
 
-.footer-right li {
-  margin-bottom: 10px;
-}
 
-.footer-right a {
-  color: #333;
+
+ul li {
   text-decoration: none;
-  font-size: 14px;
+  list-style: none;
 }
 
-.footer-right a:hover {
-  text-decoration: underline;
+a {
+  text-decoration: none;
+}
+
+.copyright {
+  background-color: #0C96B1;
+  color: white;
+  text-align: center;
 }
